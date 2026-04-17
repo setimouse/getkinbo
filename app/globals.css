@@ -1,26 +1,87 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Color Palette */
+  --surface: #fff8f5;
+  --surface_container_low: #fff1e9;
+  --surface_container_lowest: #ffffff;
+  --surface_container_highest: #f3dfd1;
+  --surface_variant: #f5e3d9;
+  --surface_bright: #ffffff;
+  --primary: #904d00;
+  --primary_container: #ff8c00;
+  --on_primary: #ffffff;
+  --on_surface: #241912;
+  --outline_variant: #ddc1ae;
+
+  /* Typography */
+  --font-sans: ui-rounded, "SF Pro Rounded", -apple-system, system-ui, sans-serif;
+
+  /* Shadows */
+  --shadow-ambient: 0 12px 40px rgba(36, 25, 18, 0.04);
+
+  /* Defaults */
+  --background: var(--surface);
+  --foreground: var(--on_surface);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-surface: var(--surface);
+  --color-surface-container-low: var(--surface_container_low);
+  --color-surface-container-lowest: var(--surface_container_lowest);
+  --color-surface-container-highest: var(--surface_container_highest);
+  --color-primary: var(--primary);
+  --color-primary-container: var(--primary_container);
+  --color-on-primary: var(--on_primary);
+  --color-on-surface: var(--on_surface);
+  --font-sans: var(--font-sans);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  line-height: 1.6;
+}
+
+/* Custom utilities */
+.gradient-primary {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--primary_container) 100%);
+}
+
+.ambient-shadow {
+  box-shadow: var(--shadow-ambient);
+}
+
+.glass-effect {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.text-display {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+
+.text-headline {
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.text-body-lg {
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+
+.text-label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
