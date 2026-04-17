@@ -16,12 +16,12 @@
       "service": "getkinbo"
     }
   ],
-  "r2_buckets": [
-    {
-      "binding": "NEXT_INC_CACHE_R2_BUCKET",
-      "bucket_name": "getkinbo-opennext-cache"
-    }
-  ],
+  // "r2_buckets": [
+  //   {
+  //     "binding": "NEXT_INC_CACHE_R2_BUCKET",
+  //     "bucket_name": "getkinbo-opennext-cache"
+  //   }
+  // ],
   "images": {
     "binding": "IMAGES"
   },
