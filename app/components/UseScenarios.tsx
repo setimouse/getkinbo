@@ -33,18 +33,18 @@ export default function UseScenarios() {
   const scenarios = [
     {
       icon: "💼",
-      title: "Office Environment",
-      description: "Enhance typing experience, improve focus, and adjust volume for quiet workspaces."
+      title: "Professional Work",
+      description: "Improve typing accuracy with visual feedback and confirm each keystroke in meetings and document editing."
     },
     {
-      icon: "🎮",
-      title: "Gaming & Entertainment",
-      description: "Get instant sound feedback for game controls and choose sound profiles that match your gaming style."
+      icon: "🎯",
+      title: "Focus Enhancement",
+      description: "Help maintain attention during extended typing sessions with sensory feedback that reinforces focus."
     },
     {
       icon: "📚",
-      title: "Learning & Practice",
-      description: "Receive real-time feedback during typing practice and create a focused learning environment."
+      title: "Learning & Accessibility",
+      description: "Support users with attention challenges or reduced input awareness through customizable feedback."
     }
   ];
 
@@ -69,7 +69,7 @@ export default function UseScenarios() {
             Use Scenarios
           </div>
           <h2 className="text-headline max-w-3xl mx-auto">
-            Perfect for Every Situation
+            Enhance Your Typing in Every Context
           </h2>
         </motion.div>
 

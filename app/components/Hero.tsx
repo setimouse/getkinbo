@@ -21,13 +21,13 @@ export default function Hero({ heroOpacity, heroScale }: { heroOpacity: any; her
             transition={{ delay: 0.2, duration: 0.8 }}
           >
             <div className="text-label text-primary-container">
-              macOS Keyboard Enhancement
+              macOS Assistive Tool
             </div>
             <h1 className="text-display">
-              Elevate Your Typing Experience
+              Enhance Your Typing Awareness
             </h1>
             <p className="text-body-lg text-on-surface/80 max-w-lg">
-              Kinbo brings immersive mechanical keyboard sounds to your Mac, transforming every keystroke and mouse click into a satisfying auditory experience.
+              Kinbo is an assistive typing feedback tool that provides real-time visual and auditory feedback to help you better perceive and confirm keyboard interactions across all applications.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <motion.a
@@ -63,8 +63,8 @@ export default function Hero({ heroOpacity, heroScale }: { heroOpacity: any; her
               <div className="bg-surface-container-lowest rounded-b-xl p-6">
                 <div className="aspect-video bg-surface-variant rounded-lg flex items-center justify-center">
                   <div className="text-center">
-                    <div className="text-4xl mb-2">🎵</div>
-                    <p className="text-sm text-on-surface/60">Kinbo App Interface</p>
+                    <div className="text-4xl mb-2">⌨️</div>
+                    <p className="text-sm text-on-surface/60">Real-time Key Visualization</p>
                   </div>
                 </div>
               </div>

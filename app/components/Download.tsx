@@ -21,7 +21,7 @@ export default function Download() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          Ready to Elevate Your Typing Experience?
+          Ready to Enhance Your Typing Awareness?
         </motion.h2>
         <motion.p
           className="text-body-lg text-on-surface/80 mb-10 max-w-2xl mx-auto"
@@ -30,7 +30,7 @@ export default function Download() {
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.6 }}
         >
-          Download Kinbo today and transform your Mac into a tactile typing haven with immersive mechanical keyboard sounds.
+          Download Kinbo today and experience real-time visual and auditory feedback that helps you better perceive and confirm keyboard interactions across all your applications.
         </motion.p>
         <motion.a
           href="#"
@@ -51,7 +51,7 @@ export default function Download() {
           viewport={{ once: true }}
           transition={{ delay: 0.6, duration: 0.6 }}
         >
-          Requires macOS 10.14 or later • No data collection • Local-only operation
+          Requires macOS 10.14 or later • Privacy-first • Local-only operation • No data collection
         </motion.p>
       </div>
     </motion.section>

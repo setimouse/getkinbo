@@ -32,34 +32,34 @@ const Feature: React.FC<FeatureProps> = ({ icon, title, description, delay }) =>
 export default function Features() {
   const features = [
     {
-      icon: "⌨️",
-      title: "Keyboard Sound Simulation",
-      description: "17 classic keyboard sound profiles with layered audio for realistic mechanical keyboard feel."
+      icon: "👁️",
+      title: "Visual Feedback",
+      description: "Real-time on-screen key visualization synchronized with your typing for enhanced input awareness."
     },
     {
-      icon: "🖱️",
-      title: "Mouse Click Sounds",
-      description: "Distinct sound feedback for left and right clicks with independent volume control."
+      icon: "🔊",
+      title: "Auditory Feedback",
+      description: "Optional typing sound cues to help confirm keyboard interactions across all applications."
     },
     {
-      icon: "🎛️",
-      title: "Personalized Settings",
-      description: "Independent volume controls, one-click sound profile switching, and startup options."
+      icon: "🔒",
+      title: "Privacy First",
+      description: "All keyboard processing happens locally. No data is recorded, stored, or transmitted."
     },
     {
-      icon: "🔄",
-      title: "Intelligent Randomization",
-      description: "Subtle variations in volume, pitch, and delay to avoid monotonous sound repetition."
+      icon: "🎨",
+      title: "Customizable Styles",
+      description: "Personalize feedback styles, visual appearance, and sound preferences for a comfortable typing experience."
     },
     {
       icon: "⚡",
-      title: "Real-time Feedback",
-      description: "Instant sound response with minimal latency for a seamless typing experience."
+      title: "Real-time Response",
+      description: "Instant visual and auditory feedback with minimal latency for seamless typing."
     },
     {
-      icon: "📦",
-      title: "Lightweight Design",
-      description: "Menu bar app with no Dock icon, running silently in the background without resource drain."
+      icon: "♿",
+      title: "Accessible Design",
+      description: "Supports users with attention-related challenges or reduced input awareness."
     }
   ];
 
@@ -84,7 +84,7 @@ export default function Features() {
             Core Features
           </div>
           <h2 className="text-headline max-w-3xl mx-auto">
-            Immersive Sound, Personalized Control
+            Real-time Feedback for Better Typing
           </h2>
         </motion.div>
 

@@ -117,26 +117,26 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({ title, description, ite
 export default function UserExperience() {
   const experiences = [
     {
-      title: "Minimal Installation",
-      description: "Drag-and-drop installation with automatic permission detection and guidance for first-time users.",
+      title: "Real-time Visual Feedback",
+      description: "See your keystrokes visualized on screen as you type, helping you better perceive and confirm keyboard interactions.",
       items: [
-        "Simple drag-and-drop installation",
-        "Automatic permission detection",
-        "Intuitive menu bar interface"
+        "Synchronized key visualization",
+        "Instant on-screen feedback",
+        "Visual confirmation for each key press"
       ],
-      image: "📥",
-      imageLabel: "Installation Process"
+      image: "👁️",
+      imageLabel: "Visual Feedback"
     },
     {
-      title: "Immersive Sound Experience",
-      description: "Multi-layered sound effects that simulate the complex acoustics of real mechanical keyboards.",
+      title: "Privacy-First Design",
+      description: "All keyboard processing happens locally on your device. Kinbo respects your privacy completely.",
       items: [
-        "Multi-layered sound effects",
-        "17 preset sound profiles",
-        "Adaptive volume control"
+        "Local-only processing",
+        "No data recording or storage",
+        "No network transmission"
       ],
-      image: "🔊",
-      imageLabel: "Sound Customization",
+      image: "🔒",
+      imageLabel: "Privacy Protection",
       reverse: true
     }
   ];
@@ -162,7 +162,7 @@ export default function UserExperience() {
             User Experience
           </div>
           <h2 className="text-headline max-w-3xl mx-auto">
-            Designed for Seamless Integration
+            Designed for Better Typing Awareness
           </h2>
         </motion.div>
 
